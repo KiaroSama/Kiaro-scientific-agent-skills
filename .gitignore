@@ -16,8 +16,27 @@ research/
 
 # Local agent tooling
 .claude/
-.agents/
+/.agents/*
+!/.agents/plugins/
 
 skills-lock.json
 
 uv.lock
+
+# Fork: local-only files
+/.ai/
+/.specify/
+/specs/
+/secrets.md
+/explain-AI.md
+/reference.md
+/.codex/
+/.kiro/
+/.cursor/
+/.cline/
+/graphify-out/
+/.codebase-memory/
+/plans/
+/logs/
+.ignoreme
+**/.ignoreme
