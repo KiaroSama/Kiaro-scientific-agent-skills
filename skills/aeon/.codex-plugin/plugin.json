@@ -1,0 +1,18 @@
+{
+  "name": "aeon",
+  "description": "This skill should be used for time series machine learning tasks including classification, regression, clustering, forecasting, anomaly detection, segmentation, and similarity search. Use when working with temporal data, sequential patterns, or time-indexed observations requiring specialized algo...",
+  "author": {
+    "name": "KiaroSama"
+  },
+  "homepage": "https://github.com/KiaroSama/Kiaro-scientific-agent-skills",
+  "repository": "https://github.com/KiaroSama/Kiaro-scientific-agent-skills",
+  "license": "BSD-3-Clause",
+  "skills": "./",
+  "interface": {
+    "displayName": "aeon",
+    "shortDescription": "This skill should be used for time series machine learning tasks including classification, regression, clustering, forec",
+    "developerName": "KiaroSama",
+    "category": "Education & Research",
+    "websiteURL": "https://github.com/KiaroSama/Kiaro-scientific-agent-skills"
+  }
+}

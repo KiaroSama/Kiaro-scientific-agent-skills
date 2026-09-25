@@ -1,0 +1,18 @@
+{
+  "name": "ontology-term-resolution",
+  "description": "Resolve free-text scientific labels to ontology term IDs and validate existing CURIEs against the EBI Ontology Lookup Service (OLS4). Also look up prefixes in Bioregistry, resolve compact identifiers via Identifiers.org, map lab shorthand with ZOOMA, and build Ontobee term pages. Use whenever an ...",
+  "author": {
+    "name": "KiaroSama"
+  },
+  "homepage": "https://github.com/KiaroSama/Kiaro-scientific-agent-skills",
+  "repository": "https://github.com/KiaroSama/Kiaro-scientific-agent-skills",
+  "license": "MIT",
+  "skills": "./",
+  "interface": {
+    "displayName": "ontology-term-resolution",
+    "shortDescription": "Resolve free-text scientific labels to ontology term IDs and validate existing CURIEs against the EBI Ontology Lookup Se",
+    "developerName": "KiaroSama",
+    "category": "Education & Research",
+    "websiteURL": "https://github.com/KiaroSama/Kiaro-scientific-agent-skills"
+  }
+}

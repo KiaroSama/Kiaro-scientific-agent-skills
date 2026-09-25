@@ -1,0 +1,18 @@
+{
+  "name": "stable-baselines3",
+  "description": "Production-ready reinforcement learning algorithms (PPO, SAC, DQN, TD3, DDPG, A2C) with scikit-learn-like API. Use for standard RL experiments, quick prototyping, and well-documented algorithm implementations. Best for single-agent RL with Gymnasium environments. For high-performance parallel tra...",
+  "author": {
+    "name": "KiaroSama"
+  },
+  "homepage": "https://github.com/KiaroSama/Kiaro-scientific-agent-skills",
+  "repository": "https://github.com/KiaroSama/Kiaro-scientific-agent-skills",
+  "license": "MIT",
+  "skills": "./",
+  "interface": {
+    "displayName": "stable-baselines3",
+    "shortDescription": "Production-ready reinforcement learning algorithms (PPO, SAC, DQN, TD3, DDPG, A2C) with scikit-learn-like API. Use for s",
+    "developerName": "KiaroSama",
+    "category": "Education & Research",
+    "websiteURL": "https://github.com/KiaroSama/Kiaro-scientific-agent-skills"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "name": "dnanexus-integration",
+  "description": "Build and operate reproducible genomics workloads on DNAnexus with the dx CLI, dxpy, apps/applets, native workflows, dxCompiler, and Nextflow. Use for DNAnexus data transfers, dxapp.json development, execution monitoring, workflow import, and project automation.",
+  "author": {
+    "name": "KiaroSama"
+  },
+  "homepage": "https://github.com/KiaroSama/Kiaro-scientific-agent-skills",
+  "repository": "https://github.com/KiaroSama/Kiaro-scientific-agent-skills",
+  "license": "MIT"
+}

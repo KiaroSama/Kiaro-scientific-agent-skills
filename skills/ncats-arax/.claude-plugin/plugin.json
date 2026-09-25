@@ -1,0 +1,10 @@
+{
+  "name": "ncats-arax",
+  "description": "Queries the NCATS Translator ARAX production API for bounded, typed, provenance-rich one-hop and endpoint-pinned two-hop biomedical knowledge-graph relationships. Use for Biolink-constrained RTX-KG2 lookup, explicit selected-provider ARAX federation, separate entity normalization, qualifier-aware...",
+  "author": {
+    "name": "KiaroSama"
+  },
+  "homepage": "https://github.com/KiaroSama/Kiaro-scientific-agent-skills",
+  "repository": "https://github.com/KiaroSama/Kiaro-scientific-agent-skills",
+  "license": "MIT"
+}

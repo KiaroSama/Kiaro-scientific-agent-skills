@@ -1,0 +1,18 @@
+{
+  "name": "citation-management",
+  "description": "Comprehensive citation management for academic research. Search OpenAlex, PubMed, and Google Scholar for papers, extract accurate metadata, validate citations, and generate properly formatted BibTeX entries. This skill should be used when you need to find papers, verify citation information, conv...",
+  "author": {
+    "name": "KiaroSama"
+  },
+  "homepage": "https://github.com/KiaroSama/Kiaro-scientific-agent-skills",
+  "repository": "https://github.com/KiaroSama/Kiaro-scientific-agent-skills",
+  "license": "MIT",
+  "skills": "./",
+  "interface": {
+    "displayName": "citation-management",
+    "shortDescription": "Comprehensive citation management for academic research. Search OpenAlex, PubMed, and Google Scholar for papers, extract",
+    "developerName": "KiaroSama",
+    "category": "Education & Research",
+    "websiteURL": "https://github.com/KiaroSama/Kiaro-scientific-agent-skills"
+  }
+}

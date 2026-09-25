@@ -1,0 +1,18 @@
+{
+  "name": "statsmodels",
+  "description": "Statistical models library for Python. Use when you need specific model classes (OLS, GLM, mixed models, ARIMA) with detailed diagnostics, residuals, and inference. Best for econometrics, time series, rigorous inference with coefficient tables. For guided statistical test selection with APA repor...",
+  "author": {
+    "name": "KiaroSama"
+  },
+  "homepage": "https://github.com/KiaroSama/Kiaro-scientific-agent-skills",
+  "repository": "https://github.com/KiaroSama/Kiaro-scientific-agent-skills",
+  "license": "BSD-3-Clause",
+  "skills": "./",
+  "interface": {
+    "displayName": "statsmodels",
+    "shortDescription": "Statistical models library for Python. Use when you need specific model classes (OLS, GLM, mixed models, ARIMA) with det",
+    "developerName": "KiaroSama",
+    "category": "Education & Research",
+    "websiteURL": "https://github.com/KiaroSama/Kiaro-scientific-agent-skills"
+  }
+}

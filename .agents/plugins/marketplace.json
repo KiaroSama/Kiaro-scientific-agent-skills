@@ -1,0 +1,2000 @@
+{
+  "name": "Kiaro-scientific-agent-skills",
+  "interface": {
+    "displayName": "Kiaro Scientific Agent Skills"
+  },
+  "plugins": [
+    {
+      "name": "adaptyv",
+      "source": {
+        "source": "local",
+        "path": "./skills/adaptyv"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Education & Research"
+    },
+    {
+      "name": "aeon",
+      "source": {
+        "source": "local",
+        "path": "./skills/aeon"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Education & Research"
+    },
+    {
+      "name": "alphagenome",
+      "source": {
+        "source": "local",
+        "path": "./skills/alphagenome"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Education & Research"
+    },
+    {
+      "name": "analytical-method-validation",
+      "source": {
+        "source": "local",
+        "path": "./skills/analytical-method-validation"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Education & Research"
+    },
+    {
+      "name": "anndata",
+      "source": {
+        "source": "local",
+        "path": "./skills/anndata"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Education & Research"
+    },
+    {
+      "name": "arbor",
+      "source": {
+        "source": "local",
+        "path": "./skills/arbor"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Education & Research"
+    },
+    {
+      "name": "arboreto",
+      "source": {
+        "source": "local",
+        "path": "./skills/arboreto"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Education & Research"
+    },
+    {
+      "name": "astropy",
+      "source": {
+        "source": "local",
+        "path": "./skills/astropy"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Education & Research"
+    },
+    {
+      "name": "autoskill",
+      "source": {
+        "source": "local",
+        "path": "./skills/autoskill"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Education & Research"
+    },
+    {
+      "name": "benchling-integration",
+      "source": {
+        "source": "local",
+        "path": "./skills/benchling-integration"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Education & Research"
+    },
+    {
+      "name": "bgpt-paper-search",
+      "source": {
+        "source": "local",
+        "path": "./skills/bgpt-paper-search"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Education & Research"
+    },
+    {
+      "name": "bids",
+      "source": {
+        "source": "local",
+        "path": "./skills/bids"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Education & Research"
+    },
+    {
+      "name": "biopython",
+      "source": {
+        "source": "local",
+        "path": "./skills/biopython"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Education & Research"
+    },
+    {
+      "name": "bioservices",
+      "source": {
+        "source": "local",
+        "path": "./skills/bioservices"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Education & Research"
+    },
+    {
+      "name": "bulk-rnaseq",
+      "source": {
+        "source": "local",
+        "path": "./skills/bulk-rnaseq"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Education & Research"
+    },
+    {
+      "name": "cellxgene-census",
+      "source": {
+        "source": "local",
+        "path": "./skills/cellxgene-census"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Education & Research"
+    },
+    {
+      "name": "cirq",
+      "source": {
+        "source": "local",
+        "path": "./skills/cirq"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Education & Research"
+    },
+    {
+      "name": "citation-management",
+      "source": {
+        "source": "local",
+        "path": "./skills/citation-management"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Education & Research"
+    },
+    {
+      "name": "clinical-decision-support",
+      "source": {
+        "source": "local",
+        "path": "./skills/clinical-decision-support"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Education & Research"
+    },
+    {
+      "name": "clinical-reports",
+      "source": {
+        "source": "local",
+        "path": "./skills/clinical-reports"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Education & Research"
+    },
+    {
+      "name": "cobrapy",
+      "source": {
+        "source": "local",
+        "path": "./skills/cobrapy"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Education & Research"
+    },
+    {
+      "name": "consciousness-council",
+      "source": {
+        "source": "local",
+        "path": "./skills/consciousness-council"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Education & Research"
+    },
+    {
+      "name": "dask",
+      "source": {
+        "source": "local",
+        "path": "./skills/dask"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Education & Research"
+    },
+    {
+      "name": "database-lookup",
+      "source": {
+        "source": "local",
+        "path": "./skills/database-lookup"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Education & Research"
+    },
+    {
+      "name": "datalad",
+      "source": {
+        "source": "local",
+        "path": "./skills/datalad"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Education & Research"
+    },
+    {
+      "name": "datamol",
+      "source": {
+        "source": "local",
+        "path": "./skills/datamol"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Education & Research"
+    },
+    {
+      "name": "deepchem",
+      "source": {
+        "source": "local",
+        "path": "./skills/deepchem"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Education & Research"
+    },
+    {
+      "name": "deepspot-m",
+      "source": {
+        "source": "local",
+        "path": "./skills/deepspot-m"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Education & Research"
+    },
+    {
+      "name": "deeptools",
+      "source": {
+        "source": "local",
+        "path": "./skills/deeptools"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Education & Research"
+    },
+    {
+      "name": "depmap",
+      "source": {
+        "source": "local",
+        "path": "./skills/depmap"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Education & Research"
+    },
+    {
+      "name": "dhdna-profiler",
+      "source": {
+        "source": "local",
+        "path": "./skills/dhdna-profiler"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Education & Research"
+    },
+    {
+      "name": "diffdock",
+      "source": {
+        "source": "local",
+        "path": "./skills/diffdock"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Education & Research"
+    },
+    {
+      "name": "dnanexus-integration",
+      "source": {
+        "source": "local",
+        "path": "./skills/dnanexus-integration"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Education & Research"
+    },
+    {
+      "name": "docx",
+      "source": {
+        "source": "local",
+        "path": "./skills/docx"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Education & Research"
+    },
+    {
+      "name": "esm",
+      "source": {
+        "source": "local",
+        "path": "./skills/esm"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Education & Research"
+    },
+    {
+      "name": "etetoolkit",
+      "source": {
+        "source": "local",
+        "path": "./skills/etetoolkit"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Education & Research"
+    },
+    {
+      "name": "exa-search",
+      "source": {
+        "source": "local",
+        "path": "./skills/exa-search"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Education & Research"
+    },
+    {
+      "name": "experimental-design",
+      "source": {
+        "source": "local",
+        "path": "./skills/experimental-design"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Education & Research"
+    },
+    {
+      "name": "exploratory-data-analysis",
+      "source": {
+        "source": "local",
+        "path": "./skills/exploratory-data-analysis"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Education & Research"
+    },
+    {
+      "name": "flowio",
+      "source": {
+        "source": "local",
+        "path": "./skills/flowio"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Education & Research"
+    },
+    {
+      "name": "fluidsim",
+      "source": {
+        "source": "local",
+        "path": "./skills/fluidsim"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Education & Research"
+    },
+    {
+      "name": "folklore-variant-evidence",
+      "source": {
+        "source": "local",
+        "path": "./skills/folklore-variant-evidence"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Education & Research"
+    },
+    {
+      "name": "generate-image",
+      "source": {
+        "source": "local",
+        "path": "./skills/generate-image"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Education & Research"
+    },
+    {
+      "name": "geniml",
+      "source": {
+        "source": "local",
+        "path": "./skills/geniml"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Education & Research"
+    },
+    {
+      "name": "genomic-coordinates",
+      "source": {
+        "source": "local",
+        "path": "./skills/genomic-coordinates"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Education & Research"
+    },
+    {
+      "name": "genomic-intelligence",
+      "source": {
+        "source": "local",
+        "path": "./skills/genomic-intelligence"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Education & Research"
+    },
+    {
+      "name": "geomaster",
+      "source": {
+        "source": "local",
+        "path": "./skills/geomaster"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Education & Research"
+    },
+    {
+      "name": "geopandas",
+      "source": {
+        "source": "local",
+        "path": "./skills/geopandas"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Education & Research"
+    },
+    {
+      "name": "get-available-resources",
+      "source": {
+        "source": "local",
+        "path": "./skills/get-available-resources"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Education & Research"
+    },
+    {
+      "name": "gget",
+      "source": {
+        "source": "local",
+        "path": "./skills/gget"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Education & Research"
+    },
+    {
+      "name": "ginkgo-cloud-lab",
+      "source": {
+        "source": "local",
+        "path": "./skills/ginkgo-cloud-lab"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Education & Research"
+    },
+    {
+      "name": "glycoengineering",
+      "source": {
+        "source": "local",
+        "path": "./skills/glycoengineering"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Education & Research"
+    },
+    {
+      "name": "gtars",
+      "source": {
+        "source": "local",
+        "path": "./skills/gtars"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Education & Research"
+    },
+    {
+      "name": "histolab",
+      "source": {
+        "source": "local",
+        "path": "./skills/histolab"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Education & Research"
+    },
+    {
+      "name": "hugging-science",
+      "source": {
+        "source": "local",
+        "path": "./skills/hugging-science"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Education & Research"
+    },
+    {
+      "name": "hypogenic",
+      "source": {
+        "source": "local",
+        "path": "./skills/hypogenic"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Education & Research"
+    },
+    {
+      "name": "hypothesis-generation",
+      "source": {
+        "source": "local",
+        "path": "./skills/hypothesis-generation"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Education & Research"
+    },
+    {
+      "name": "imaging-data-commons",
+      "source": {
+        "source": "local",
+        "path": "./skills/imaging-data-commons"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Education & Research"
+    },
+    {
+      "name": "infographics",
+      "source": {
+        "source": "local",
+        "path": "./skills/infographics"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Education & Research"
+    },
+    {
+      "name": "iso-standards-readiness",
+      "source": {
+        "source": "local",
+        "path": "./skills/iso-standards-readiness"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Education & Research"
+    },
+    {
+      "name": "lab-hardware-cad",
+      "source": {
+        "source": "local",
+        "path": "./skills/lab-hardware-cad"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Education & Research"
+    },
+    {
+      "name": "labarchive-integration",
+      "source": {
+        "source": "local",
+        "path": "./skills/labarchive-integration"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Education & Research"
+    },
+    {
+      "name": "lamindb",
+      "source": {
+        "source": "local",
+        "path": "./skills/lamindb"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Education & Research"
+    },
+    {
+      "name": "latchbio-integration",
+      "source": {
+        "source": "local",
+        "path": "./skills/latchbio-integration"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Education & Research"
+    },
+    {
+      "name": "latex-posters",
+      "source": {
+        "source": "local",
+        "path": "./skills/latex-posters"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Education & Research"
+    },
+    {
+      "name": "liteparse",
+      "source": {
+        "source": "local",
+        "path": "./skills/liteparse"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Education & Research"
+    },
+    {
+      "name": "literature-review",
+      "source": {
+        "source": "local",
+        "path": "./skills/literature-review"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Education & Research"
+    },
+    {
+      "name": "markdown-mermaid-writing",
+      "source": {
+        "source": "local",
+        "path": "./skills/markdown-mermaid-writing"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Education & Research"
+    },
+    {
+      "name": "market-research-reports",
+      "source": {
+        "source": "local",
+        "path": "./skills/market-research-reports"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Education & Research"
+    },
+    {
+      "name": "markitdown",
+      "source": {
+        "source": "local",
+        "path": "./skills/markitdown"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Education & Research"
+    },
+    {
+      "name": "matchms",
+      "source": {
+        "source": "local",
+        "path": "./skills/matchms"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Education & Research"
+    },
+    {
+      "name": "matlab",
+      "source": {
+        "source": "local",
+        "path": "./skills/matlab"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Education & Research"
+    },
+    {
+      "name": "matplotlib",
+      "source": {
+        "source": "local",
+        "path": "./skills/matplotlib"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Education & Research"
+    },
+    {
+      "name": "medchem",
+      "source": {
+        "source": "local",
+        "path": "./skills/medchem"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Education & Research"
+    },
+    {
+      "name": "modal",
+      "source": {
+        "source": "local",
+        "path": "./skills/modal"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Education & Research"
+    },
+    {
+      "name": "molecular-dynamics",
+      "source": {
+        "source": "local",
+        "path": "./skills/molecular-dynamics"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Education & Research"
+    },
+    {
+      "name": "molfeat",
+      "source": {
+        "source": "local",
+        "path": "./skills/molfeat"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Education & Research"
+    },
+    {
+      "name": "ncats-arax",
+      "source": {
+        "source": "local",
+        "path": "./skills/ncats-arax"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Education & Research"
+    },
+    {
+      "name": "networkx",
+      "source": {
+        "source": "local",
+        "path": "./skills/networkx"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Education & Research"
+    },
+    {
+      "name": "neurokit2",
+      "source": {
+        "source": "local",
+        "path": "./skills/neurokit2"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Education & Research"
+    },
+    {
+      "name": "neuropixels-analysis",
+      "source": {
+        "source": "local",
+        "path": "./skills/neuropixels-analysis"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Education & Research"
+    },
+    {
+      "name": "nextflow",
+      "source": {
+        "source": "local",
+        "path": "./skills/nextflow"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Education & Research"
+    },
+    {
+      "name": "omero-integration",
+      "source": {
+        "source": "local",
+        "path": "./skills/omero-integration"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Education & Research"
+    },
+    {
+      "name": "onekgpd",
+      "source": {
+        "source": "local",
+        "path": "./skills/onekgpd"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Education & Research"
+    },
+    {
+      "name": "ontology-term-resolution",
+      "source": {
+        "source": "local",
+        "path": "./skills/ontology-term-resolution"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Education & Research"
+    },
+    {
+      "name": "open-notebook",
+      "source": {
+        "source": "local",
+        "path": "./skills/open-notebook"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Education & Research"
+    },
+    {
+      "name": "openpiv",
+      "source": {
+        "source": "local",
+        "path": "./skills/openpiv"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Education & Research"
+    },
+    {
+      "name": "opentrons-integration",
+      "source": {
+        "source": "local",
+        "path": "./skills/opentrons-integration"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Education & Research"
+    },
+    {
+      "name": "optimize-for-gpu",
+      "source": {
+        "source": "local",
+        "path": "./skills/optimize-for-gpu"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Education & Research"
+    },
+    {
+      "name": "pacsomatic",
+      "source": {
+        "source": "local",
+        "path": "./skills/pacsomatic"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Education & Research"
+    },
+    {
+      "name": "paper-lookup",
+      "source": {
+        "source": "local",
+        "path": "./skills/paper-lookup"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Education & Research"
+    },
+    {
+      "name": "paperclip",
+      "source": {
+        "source": "local",
+        "path": "./skills/paperclip"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Education & Research"
+    },
+    {
+      "name": "paperzilla",
+      "source": {
+        "source": "local",
+        "path": "./skills/paperzilla"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Education & Research"
+    },
+    {
+      "name": "parallel-web",
+      "source": {
+        "source": "local",
+        "path": "./skills/parallel-web"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Education & Research"
+    },
+    {
+      "name": "pathml",
+      "source": {
+        "source": "local",
+        "path": "./skills/pathml"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Education & Research"
+    },
+    {
+      "name": "pathogen-variant-surveillance",
+      "source": {
+        "source": "local",
+        "path": "./skills/pathogen-variant-surveillance"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Education & Research"
+    },
+    {
+      "name": "pathway-enrichment",
+      "source": {
+        "source": "local",
+        "path": "./skills/pathway-enrichment"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Education & Research"
+    },
+    {
+      "name": "pdf",
+      "source": {
+        "source": "local",
+        "path": "./skills/pdf"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Education & Research"
+    },
+    {
+      "name": "peer-review",
+      "source": {
+        "source": "local",
+        "path": "./skills/peer-review"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Education & Research"
+    },
+    {
+      "name": "pennylane",
+      "source": {
+        "source": "local",
+        "path": "./skills/pennylane"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Education & Research"
+    },
+    {
+      "name": "phylogenetics",
+      "source": {
+        "source": "local",
+        "path": "./skills/phylogenetics"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Education & Research"
+    },
+    {
+      "name": "pi-agent",
+      "source": {
+        "source": "local",
+        "path": "./skills/pi-agent"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Education & Research"
+    },
+    {
+      "name": "pkpd-modeling",
+      "source": {
+        "source": "local",
+        "path": "./skills/pkpd-modeling"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Education & Research"
+    },
+    {
+      "name": "polars",
+      "source": {
+        "source": "local",
+        "path": "./skills/polars"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Education & Research"
+    },
+    {
+      "name": "polars-bio",
+      "source": {
+        "source": "local",
+        "path": "./skills/polars-bio"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Education & Research"
+    },
+    {
+      "name": "pptx",
+      "source": {
+        "source": "local",
+        "path": "./skills/pptx"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Education & Research"
+    },
+    {
+      "name": "pptx-posters",
+      "source": {
+        "source": "local",
+        "path": "./skills/pptx-posters"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Education & Research"
+    },
+    {
+      "name": "primekg",
+      "source": {
+        "source": "local",
+        "path": "./skills/primekg"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Education & Research"
+    },
+    {
+      "name": "protocolsio-integration",
+      "source": {
+        "source": "local",
+        "path": "./skills/protocolsio-integration"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Education & Research"
+    },
+    {
+      "name": "pufferlib",
+      "source": {
+        "source": "local",
+        "path": "./skills/pufferlib"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Education & Research"
+    },
+    {
+      "name": "pydeseq2",
+      "source": {
+        "source": "local",
+        "path": "./skills/pydeseq2"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Education & Research"
+    },
+    {
+      "name": "pydicom",
+      "source": {
+        "source": "local",
+        "path": "./skills/pydicom"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Education & Research"
+    },
+    {
+      "name": "pyhealth",
+      "source": {
+        "source": "local",
+        "path": "./skills/pyhealth"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Education & Research"
+    },
+    {
+      "name": "pylabrobot",
+      "source": {
+        "source": "local",
+        "path": "./skills/pylabrobot"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Education & Research"
+    },
+    {
+      "name": "pymatgen",
+      "source": {
+        "source": "local",
+        "path": "./skills/pymatgen"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Education & Research"
+    },
+    {
+      "name": "pymc",
+      "source": {
+        "source": "local",
+        "path": "./skills/pymc"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Education & Research"
+    },
+    {
+      "name": "pymoo",
+      "source": {
+        "source": "local",
+        "path": "./skills/pymoo"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Education & Research"
+    },
+    {
+      "name": "pyopenms",
+      "source": {
+        "source": "local",
+        "path": "./skills/pyopenms"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Education & Research"
+    },
+    {
+      "name": "pysam",
+      "source": {
+        "source": "local",
+        "path": "./skills/pysam"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Education & Research"
+    },
+    {
+      "name": "pytdc",
+      "source": {
+        "source": "local",
+        "path": "./skills/pytdc"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Education & Research"
+    },
+    {
+      "name": "pytorch-lightning",
+      "source": {
+        "source": "local",
+        "path": "./skills/pytorch-lightning"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Education & Research"
+    },
+    {
+      "name": "pyzotero",
+      "source": {
+        "source": "local",
+        "path": "./skills/pyzotero"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Education & Research"
+    },
+    {
+      "name": "qiskit",
+      "source": {
+        "source": "local",
+        "path": "./skills/qiskit"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Education & Research"
+    },
+    {
+      "name": "qutip",
+      "source": {
+        "source": "local",
+        "path": "./skills/qutip"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Education & Research"
+    },
+    {
+      "name": "rdkit",
+      "source": {
+        "source": "local",
+        "path": "./skills/rdkit"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Education & Research"
+    },
+    {
+      "name": "relsa-severity-assessment",
+      "source": {
+        "source": "local",
+        "path": "./skills/relsa-severity-assessment"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Education & Research"
+    },
+    {
+      "name": "research-grants",
+      "source": {
+        "source": "local",
+        "path": "./skills/research-grants"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Education & Research"
+    },
+    {
+      "name": "research-lookup",
+      "source": {
+        "source": "local",
+        "path": "./skills/research-lookup"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Education & Research"
+    },
+    {
+      "name": "rowan",
+      "source": {
+        "source": "local",
+        "path": "./skills/rowan"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Education & Research"
+    },
+    {
+      "name": "scanpy",
+      "source": {
+        "source": "local",
+        "path": "./skills/scanpy"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Education & Research"
+    },
+    {
+      "name": "scholar-evaluation",
+      "source": {
+        "source": "local",
+        "path": "./skills/scholar-evaluation"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Education & Research"
+    },
+    {
+      "name": "scientific-brainstorming",
+      "source": {
+        "source": "local",
+        "path": "./skills/scientific-brainstorming"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Education & Research"
+    },
+    {
+      "name": "scientific-critical-thinking",
+      "source": {
+        "source": "local",
+        "path": "./skills/scientific-critical-thinking"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Education & Research"
+    },
+    {
+      "name": "scientific-schematics",
+      "source": {
+        "source": "local",
+        "path": "./skills/scientific-schematics"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Education & Research"
+    },
+    {
+      "name": "scientific-slides",
+      "source": {
+        "source": "local",
+        "path": "./skills/scientific-slides"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Education & Research"
+    },
+    {
+      "name": "scientific-visualization",
+      "source": {
+        "source": "local",
+        "path": "./skills/scientific-visualization"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Education & Research"
+    },
+    {
+      "name": "scientific-writing",
+      "source": {
+        "source": "local",
+        "path": "./skills/scientific-writing"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Education & Research"
+    },
+    {
+      "name": "scikit-bio",
+      "source": {
+        "source": "local",
+        "path": "./skills/scikit-bio"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Education & Research"
+    },
+    {
+      "name": "scikit-learn",
+      "source": {
+        "source": "local",
+        "path": "./skills/scikit-learn"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Education & Research"
+    },
+    {
+      "name": "scikit-survival",
+      "source": {
+        "source": "local",
+        "path": "./skills/scikit-survival"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Education & Research"
+    },
+    {
+      "name": "scvelo",
+      "source": {
+        "source": "local",
+        "path": "./skills/scvelo"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Education & Research"
+    },
+    {
+      "name": "scvi-tools",
+      "source": {
+        "source": "local",
+        "path": "./skills/scvi-tools"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Education & Research"
+    },
+    {
+      "name": "seaborn",
+      "source": {
+        "source": "local",
+        "path": "./skills/seaborn"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Education & Research"
+    },
+    {
+      "name": "shap",
+      "source": {
+        "source": "local",
+        "path": "./skills/shap"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Education & Research"
+    },
+    {
+      "name": "simpy",
+      "source": {
+        "source": "local",
+        "path": "./skills/simpy"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Education & Research"
+    },
+    {
+      "name": "stable-baselines3",
+      "source": {
+        "source": "local",
+        "path": "./skills/stable-baselines3"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Education & Research"
+    },
+    {
+      "name": "statistical-analysis",
+      "source": {
+        "source": "local",
+        "path": "./skills/statistical-analysis"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Education & Research"
+    },
+    {
+      "name": "statistical-power",
+      "source": {
+        "source": "local",
+        "path": "./skills/statistical-power"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Education & Research"
+    },
+    {
+      "name": "statsmodels",
+      "source": {
+        "source": "local",
+        "path": "./skills/statsmodels"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Education & Research"
+    },
+    {
+      "name": "sympy",
+      "source": {
+        "source": "local",
+        "path": "./skills/sympy"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Education & Research"
+    },
+    {
+      "name": "tamarind",
+      "source": {
+        "source": "local",
+        "path": "./skills/tamarind"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Education & Research"
+    },
+    {
+      "name": "tiledbvcf",
+      "source": {
+        "source": "local",
+        "path": "./skills/tiledbvcf"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Education & Research"
+    },
+    {
+      "name": "timesfm-forecasting",
+      "source": {
+        "source": "local",
+        "path": "./skills/timesfm-forecasting"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Education & Research"
+    },
+    {
+      "name": "torch-geometric",
+      "source": {
+        "source": "local",
+        "path": "./skills/torch-geometric"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Education & Research"
+    },
+    {
+      "name": "torchdrug",
+      "source": {
+        "source": "local",
+        "path": "./skills/torchdrug"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Education & Research"
+    },
+    {
+      "name": "transformers",
+      "source": {
+        "source": "local",
+        "path": "./skills/transformers"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Education & Research"
+    },
+    {
+      "name": "treatment-plans",
+      "source": {
+        "source": "local",
+        "path": "./skills/treatment-plans"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Education & Research"
+    },
+    {
+      "name": "umap-learn",
+      "source": {
+        "source": "local",
+        "path": "./skills/umap-learn"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Education & Research"
+    },
+    {
+      "name": "uncertainty-and-units",
+      "source": {
+        "source": "local",
+        "path": "./skills/uncertainty-and-units"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Education & Research"
+    },
+    {
+      "name": "usfiscaldata",
+      "source": {
+        "source": "local",
+        "path": "./skills/usfiscaldata"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Education & Research"
+    },
+    {
+      "name": "vaex",
+      "source": {
+        "source": "local",
+        "path": "./skills/vaex"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Education & Research"
+    },
+    {
+      "name": "venue-templates",
+      "source": {
+        "source": "local",
+        "path": "./skills/venue-templates"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Education & Research"
+    },
+    {
+      "name": "waypoint-bio",
+      "source": {
+        "source": "local",
+        "path": "./skills/waypoint-bio"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Education & Research"
+    },
+    {
+      "name": "what-if-oracle",
+      "source": {
+        "source": "local",
+        "path": "./skills/what-if-oracle"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Education & Research"
+    },
+    {
+      "name": "xlsx",
+      "source": {
+        "source": "local",
+        "path": "./skills/xlsx"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Education & Research"
+    },
+    {
+      "name": "zarr-python",
+      "source": {
+        "source": "local",
+        "path": "./skills/zarr-python"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Education & Research"
+    }
+  ]
+}

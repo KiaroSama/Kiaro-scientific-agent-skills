@@ -1,0 +1,1005 @@
+{
+  "name": "Kiaro-scientific-agent-skills",
+  "owner": {
+    "name": "KiaroSama"
+  },
+  "description": "Scientific and research Agent Skills, one plugin per skill.",
+  "plugins": [
+    {
+      "name": "adaptyv",
+      "source": "./skills/adaptyv",
+      "description": "How to use the Adaptyv Bio Foundry API and Python SDK for protein experiment design, submission, and results retrieval. Use this skill whenever the user mentions Adaptyv, Foundry API, protein binding assays, protein screening experiments, BLI/SPR assays, thermostability assays, or wants to submit...",
+      "category": "skill"
+    },
+    {
+      "name": "aeon",
+      "source": "./skills/aeon",
+      "description": "This skill should be used for time series machine learning tasks including classification, regression, clustering, forecasting, anomaly detection, segmentation, and similarity search. Use when working with temporal data, sequential patterns, or time-indexed observations requiring specialized algo...",
+      "category": "skill"
+    },
+    {
+      "name": "alphagenome",
+      "source": "./skills/alphagenome",
+      "description": "Look up precomputed AlphaGenome Atlas effects for any GRCh38 single-nucleotide variant (AVI score with Phred and 18 SHAP feature attributions, plus raw and quantile scores for RNA-seq, DNase, ATAC, ChIP-TF, ChIP-histone, CAGE, PRO-cap, splicing, polyadenylation and contact-map tracks), score vari...",
+      "category": "skill"
+    },
+    {
+      "name": "analytical-method-validation",
+      "source": "./skills/analytical-method-validation",
+      "description": "Plan, execute, and document validation, verification, and transfer of analytical procedures under the governing framework - ICH Q2(R2) and Q14, USP <1220>/<1225>/<1226>, ICH M10 bioanalytical, CLSI EP, or ISO/IEC 17025. Use for HPLC, LC-MS/MS, GC, CE, ICP-MS, dissolution, qNMR, qPCR, NIR, and lig...",
+      "category": "skill"
+    },
+    {
+      "name": "anndata",
+      "source": "./skills/anndata",
+      "description": "Data structure for annotated matrices in single-cell analysis. Use when working with .h5ad files or integrating with the scverse ecosystem. This is the data format skill—for analysis workflows use scanpy; for probabilistic models use scvi-tools; for population-scale queries use cellxgene-census.",
+      "category": "skill"
+    },
+    {
+      "name": "arbor",
+      "source": "./skills/arbor",
+      "description": "Autonomously improve a real artifact (code, training recipe, agent harness, data pipeline, prompt) against an objective and an evaluator, using Hypothesis Tree Refinement (HTR) from the Arbor paper. Use this whenever someone wants to iteratively optimize something over many experiments without ov...",
+      "category": "skill"
+    },
+    {
+      "name": "arboreto",
+      "source": "./skills/arboreto",
+      "description": "Infer gene regulatory networks (GRNs) from gene expression data using scalable algorithms (GRNBoost2, GENIE3). Use when analyzing transcriptomics data (bulk RNA-seq, single-cell RNA-seq) to identify transcription factor-target gene relationships and regulatory interactions. Supports distributed c...",
+      "category": "skill"
+    },
+    {
+      "name": "astropy",
+      "source": "./skills/astropy",
+      "description": "Core Python library for astronomy and astrophysics workflows that need Astropy APIs, including units/quantities, coordinates, FITS I/O, tables, time systems, WCS, and cosmology. Use when implementing or debugging astronomical data analysis code with Astropy.",
+      "category": "skill"
+    },
+    {
+      "name": "autoskill",
+      "source": "./skills/autoskill",
+      "description": "Observe the user's screen via screenpipe, detect repeated research workflows, match them against existing scientific-agent-skills, and draft new skills (or composition recipes that chain existing ones) for the patterns not yet covered. Use when the user asks to analyze their recent work and propo...",
+      "category": "skill"
+    },
+    {
+      "name": "benchling-integration",
+      "source": "./skills/benchling-integration",
+      "description": "Benchling Python SDK and REST API integration for registry entities, inventory, ELN entries, workflows, Benchling Apps, and Data Warehouse queries. Use when automating lab data with benchling-sdk or the v2 API.",
+      "category": "skill"
+    },
+    {
+      "name": "bgpt-paper-search",
+      "source": "./skills/bgpt-paper-search",
+      "description": "Search scientific papers and retrieve structured experimental data extracted from full-text studies via the BGPT MCP server. Returns 25+ fields per paper including methods, results, sample sizes, quality scores, and conclusions. Use for literature reviews, evidence synthesis, and finding experime...",
+      "category": "skill"
+    },
+    {
+      "name": "bids",
+      "source": "./skills/bids",
+      "description": "Use this skill when working with Brain Imaging Data Structure (BIDS) datasets: organizing neuroscience and biomedical data (MRI, EEG, MEG, iEEG, PET, microscopy, NIRS, motion capture, EMG, MR spectroscopy, behavioral), querying BIDS layouts, validating compliance, converting DICOM to BIDS, writin...",
+      "category": "skill"
+    },
+    {
+      "name": "biopython",
+      "source": "./skills/biopython",
+      "description": "Comprehensive molecular biology toolkit. Use for sequence manipulation, file parsing (FASTA/GenBank/PDB), phylogenetics, and programmatic NCBI/PubMed access (Bio.Entrez). Best for batch processing, custom bioinformatics pipelines, BLAST automation. For quick lookups use gget; for multi-service in...",
+      "category": "skill"
+    },
+    {
+      "name": "bioservices",
+      "source": "./skills/bioservices",
+      "description": "Unified Python interface to 40+ bioinformatics services. Use when querying multiple databases (UniProt, KEGG, ChEMBL, Reactome) in a single workflow with consistent API. Best for cross-database analysis, ID mapping across services. For quick single-database lookups use gget; for sequence/file man...",
+      "category": "skill"
+    },
+    {
+      "name": "bulk-rnaseq",
+      "source": "./skills/bulk-rnaseq",
+      "description": "End-to-end bulk RNA-seq orchestrator — takes raw FASTQ reads through QC and trimming (FastQC, fastp/Trim Galore), alignment and quantification (STAR, Salmon, featureCounts), assembles a gene-level counts matrix, then hands off to differential expression (pydeseq2), pathway/GSEA enrichment (pathwa...",
+      "category": "skill"
+    },
+    {
+      "name": "cellxgene-census",
+      "source": "./skills/cellxgene-census",
+      "description": "Query the CZ CELLxGENE Census programmatically for versioned public single-cell and spatial transcriptomics data. Use when you need population-scale cell metadata, gene expression slices, Census summary counts, source H5AD URIs/downloads, embeddings, spatial Census data, or reference atlas compar...",
+      "category": "skill"
+    },
+    {
+      "name": "cirq",
+      "source": "./skills/cirq",
+      "description": "Google quantum computing framework. Use when targeting Google Quantum AI hardware, designing noise-aware circuits, or running quantum characterization experiments. Best for Google hardware, noise modeling, and low-level circuit design. For IBM hardware use qiskit; for quantum ML with autodiff use...",
+      "category": "skill"
+    },
+    {
+      "name": "citation-management",
+      "source": "./skills/citation-management",
+      "description": "Comprehensive citation management for academic research. Search OpenAlex, PubMed, and Google Scholar for papers, extract accurate metadata, validate citations, and generate properly formatted BibTeX entries. This skill should be used when you need to find papers, verify citation information, conv...",
+      "category": "skill"
+    },
+    {
+      "name": "clinical-decision-support",
+      "source": "./skills/clinical-decision-support",
+      "description": "Prepare and validate research-only clinical decision-support evaluation, evidence-profile, cohort, survival, biomarker/model, privacy, and governance artifacts. Use for aggregate or synthetic research documentation and traceability—not patient care or live clinical operation.",
+      "category": "skill"
+    },
+    {
+      "name": "clinical-reports",
+      "source": "./skills/clinical-reports",
+      "description": "Create safety-bounded draft structures and run local deterministic checks for clinical case, diagnostic, trial, safety, and aggregate research reports. Use only with synthetic, de-identified, or aggregate inputs and verified source-fact manifests; every output requires qualified review.",
+      "category": "skill"
+    },
+    {
+      "name": "cobrapy",
+      "source": "./skills/cobrapy",
+      "description": "Constraint-based metabolic modeling (COBRA). FBA, FVA, gene knockouts, flux sampling, SBML models, for systems biology and metabolic engineering analysis.",
+      "category": "skill"
+    },
+    {
+      "name": "consciousness-council",
+      "source": "./skills/consciousness-council",
+      "description": "Run a multi-perspective Mind Council deliberation on any question, decision, or creative challenge. Use this skill whenever the user wants diverse viewpoints, needs help making a tough decision, asks for a council/panel/board discussion, wants to explore a problem from multiple angles, requests d...",
+      "category": "skill"
+    },
+    {
+      "name": "dask",
+      "source": "./skills/dask",
+      "description": "Distributed computing for larger-than-RAM pandas/NumPy workflows. Use when you need to scale existing pandas/NumPy code beyond memory or across clusters. Best for parallel file processing, distributed ML, integration with existing pandas code. For out-of-core analytics on single machine use vaex;...",
+      "category": "skill"
+    },
+    {
+      "name": "database-lookup",
+      "source": "./skills/database-lookup",
+      "description": "Query documented public database APIs with explicit endpoints, filters, pagination, and provenance. Use when a scientific, regulatory, financial, or other database-backed fact must be retrieved reproducibly from a named source rather than inferred from general knowledge.",
+      "category": "skill"
+    },
+    {
+      "name": "datalad",
+      "source": "./skills/datalad",
+      "description": "Retrieve, version, and publish scientific datasets with DataLad and git-annex, and capture computational provenance with datalad run, rerun, and containers-run. Use when cloning or fetching data from OpenNeuro, DANDI, datasets.datalad.org, or any DataLad dataset; when a file in a dataset reads as...",
+      "category": "skill"
+    },
+    {
+      "name": "datamol",
+      "source": "./skills/datamol",
+      "description": "Pythonic wrapper around RDKit with simplified interface and sensible defaults. Preferred for standard drug discovery including SMILES parsing, standardization, descriptors, fingerprints, clustering, 3D conformers, parallel processing. Returns native rdkit.Chem.Mol objects. For advanced control or...",
+      "category": "skill"
+    },
+    {
+      "name": "deepchem",
+      "source": "./skills/deepchem",
+      "description": "Molecular ML with diverse featurizers and pre-built datasets. Use for property prediction (ADMET, toxicity) with traditional ML or GNNs when you want extensive featurization options and MoleculeNet benchmarks. Best for quick experiments with pre-trained models, diverse molecular representations. ...",
+      "category": "skill"
+    },
+    {
+      "name": "deepspot-m",
+      "source": "./skills/deepspot-m",
+      "description": "Generate transcriptome-wide virtual spatial transcriptomics from H&E histology with DeepSpot-M. Use when you need spatial gene expression in log1p-CPM for 224x224 tiles at about 20x, want to query protein-coding genes by symbol instead of a fixed panel, or want to run prediction across a whole sl...",
+      "category": "skill"
+    },
+    {
+      "name": "deeptools",
+      "source": "./skills/deeptools",
+      "description": "NGS analysis toolkit. BAM to bigWig conversion, QC (correlation, PCA, fingerprints), heatmaps/profiles (TSS, peaks), for ChIP-seq, RNA-seq, ATAC-seq visualization.",
+      "category": "skill"
+    },
+    {
+      "name": "depmap",
+      "source": "./skills/depmap",
+      "description": "Query the Cancer Dependency Map (DepMap) for cancer cell line gene dependency scores (CRISPR Chronos), drug sensitivity data, and gene effect profiles. Use for identifying cancer-specific vulnerabilities, synthetic lethal interactions, and validating oncology drug targets.",
+      "category": "skill"
+    },
+    {
+      "name": "dhdna-profiler",
+      "source": "./skills/dhdna-profiler",
+      "description": "Extract cognitive patterns and thinking fingerprints from any text. Use this skill when the user wants to analyze how someone thinks, understand cognitive style, profile writing or speech patterns, compare thinking styles between people, asks \"what's my thinking style\", \"analyze how this person r...",
+      "category": "skill"
+    },
+    {
+      "name": "diffdock",
+      "source": "./skills/diffdock",
+      "description": "DiffDock and DiffDock-L molecular docking. Use for protein-small-molecule pose prediction from PDB or sequence plus SMILES/SDF/MOL2, batch docking, virtual screening, and pose-confidence interpretation. Not for binding affinity prediction.",
+      "category": "skill"
+    },
+    {
+      "name": "dnanexus-integration",
+      "source": "./skills/dnanexus-integration",
+      "description": "Build and operate reproducible genomics workloads on DNAnexus with the dx CLI, dxpy, apps/applets, native workflows, dxCompiler, and Nextflow. Use for DNAnexus data transfers, dxapp.json development, execution monitoring, workflow import, and project automation.",
+      "category": "skill"
+    },
+    {
+      "name": "docx",
+      "source": "./skills/docx",
+      "description": "Use this skill whenever the user wants to create, read, edit, or manipulate Word documents (.docx files) or Word templates (.dotx files). Triggers include: any mention of 'Word doc', 'word document', '.docx', '.dotx', or requests to produce professional documents with formatting like tables of co...",
+      "category": "skill"
+    },
+    {
+      "name": "esm",
+      "source": "./skills/esm",
+      "description": "Use when working directly with the `esm` Python SDK, ESM3 or ESMC model IDs, Forge/Biohub inference clients, or ESMFold2 folding workflows.",
+      "category": "skill"
+    },
+    {
+      "name": "etetoolkit",
+      "source": "./skills/etetoolkit",
+      "description": "Analyze, manipulate, compare, annotate, and visualize phylogenetic or other hierarchical trees with ETE 4. Use for Newick/Nexus tree I/O, topology edits and pattern matching, Robinson-Foulds comparisons, gene-tree evolutionary events and reconciliation, NCBI/GTDB taxonomy, SmartView exploration, ...",
+      "category": "skill"
+    },
+    {
+      "name": "exa-search",
+      "source": "./skills/exa-search",
+      "description": "Web toolkit powered by Exa, tuned for scientific and technical content. Use this skill when the user needs to search the web or fetch/extract URL content. Covers: web search (semantic lookups, research, current info — with optional research-paper category and academic domain filtering) and URL ex...",
+      "category": "skill"
+    },
+    {
+      "name": "experimental-design",
+      "source": "./skills/experimental-design",
+      "description": "Design experiments and studies BEFORE data is collected — choosing a design, randomizing, blocking, and laying out treatment combinations so results are interpretable. Use whenever someone is planning a study, asks how to assign subjects/samples to groups, mentions randomization, blocking, strati...",
+      "category": "skill"
+    },
+    {
+      "name": "exploratory-data-analysis",
+      "source": "./skills/exploratory-data-analysis",
+      "description": "Perform bounded, local exploratory analysis of explicitly supported scientific files. Use for redacted CSV/TSV/JSON profiles; optional NumPy, HDF5, FASTA/FASTQ, and basic image metadata inspection; missingness/leakage audits; outlier and transformation sensitivity; and rigorous EDA report scaffol...",
+      "category": "skill"
+    },
+    {
+      "name": "flowio",
+      "source": "./skills/flowio",
+      "description": "Read, inspect, and write Flow Cytometry Standard (FCS) 2.0, 3.0, and 3.1 files with FlowIO. Use for low-level FCS metadata and channel inspection, NumPy event extraction, multi-dataset files, table export, and FCS 3.1 creation; use FlowKit for compensation, cytometry transforms, gating, or FlowJo...",
+      "category": "skill"
+    },
+    {
+      "name": "fluidsim",
+      "source": "./skills/fluidsim",
+      "description": "Plan, configure, inspect, restart, and analyze bounded FluidSim computational-fluid-dynamics simulations with explicit numerical-validity and HPC safety checks. Use for FluidSim solver selection, parameter review, FFT/MPI setup, output diagnostics, or restart compatibility.",
+      "category": "skill"
+    },
+    {
+      "name": "folklore-variant-evidence",
+      "source": "./skills/folklore-variant-evidence",
+      "description": "Retrieve ClinGen gene-disease validity assertions for a public gene or disease, and review source-linked public evidence and literature for one supported GRCh38 germline nuclear SNV or simple indel through Folklore Clinical Variant Interpretation MCP. Use when a scientific agent must branch deter...",
+      "category": "skill"
+    },
+    {
+      "name": "generate-image",
+      "source": "./skills/generate-image",
+      "description": "Generate or edit images with AI models through the OpenRouter Image API (Gemini, Seedream, Recraft, GPT-Image, Riverflow). Use for photos, illustrations, artwork, concept art, visual assets, logos, and image editing or compositing from reference images. For flowcharts, circuits, pathways, and oth...",
+      "category": "skill"
+    },
+    {
+      "name": "geniml",
+      "source": "./skills/geniml",
+      "description": "Use Geniml for audited local genomic-interval workflows: validate BED and universe contracts, plan Region2Vec or scEmbed runs, inspect model/tokenizer compatibility, and assess consensus universes.",
+      "category": "skill"
+    },
+    {
+      "name": "genomic-coordinates",
+      "source": "./skills/genomic-coordinates",
+      "description": "Convert genomic intervals between coordinate conventions, normalise and compare variant representations, and detect assembly or contig-naming mismatches before they corrupt an analysis. Use whenever coordinates cross a format, tool, or assembly boundary - converting between BED, GFF/GTF, VCF, SAM...",
+      "category": "skill"
+    },
+    {
+      "name": "genomic-intelligence",
+      "source": "./skills/genomic-intelligence",
+      "description": "Predict regulatory features, gene structure, and expression directly from DNA sequence using Genomic Intelligence's hosted transformer DNA language models — no local GPU or model weights. Six tasks over a REST API and a hosted MCP server (keyless public demo): promoter regions, splice donor/accep...",
+      "category": "skill"
+    },
+    {
+      "name": "geomaster",
+      "source": "./skills/geomaster",
+      "description": "Comprehensive geospatial science skill covering remote sensing, GIS, spatial analysis, machine learning for earth observation, and 30+ scientific domains. Supports satellite imagery processing (Sentinel, Landsat, MODIS, SAR, hyperspectral), vector and raster data operations, spatial statistics, p...",
+      "category": "skill"
+    },
+    {
+      "name": "geopandas",
+      "source": "./skills/geopandas",
+      "description": "Guidance and local audit tools for Python workflows that directly use GeoPandas GeoSeries, GeoDataFrame, spatial operations, or vector-data I/O.",
+      "category": "skill"
+    },
+    {
+      "name": "get-available-resources",
+      "source": "./skills/get-available-resources",
+      "description": "Detect host inventory and effective CPU, memory, disk, scheduler, container, and accelerator limits when a user asks for resource-aware planning or before a clearly resource-sensitive local workload. Produces a redacted JSON snapshot and conservative planning helpers without stress tests or assum...",
+      "category": "skill"
+    },
+    {
+      "name": "gget",
+      "source": "./skills/gget",
+      "description": "Fast CLI/Python queries to 20+ bioinformatics databases. Use for quick lookups: gene info, BLAST/BLAT, viral sequence downloads, AlphaFold structures, enrichment analysis, OpenTargets, COSMIC, CELLxGENE, and 8cube mouse specificity/expression data. Best for interactive exploration and simple quer...",
+      "category": "skill"
+    },
+    {
+      "name": "ginkgo-cloud-lab",
+      "source": "./skills/ginkgo-cloud-lab",
+      "description": "Submit and manage protocols on Ginkgo Bioworks Cloud Lab (cloud.ginkgo.bio), a web-based interface for autonomous lab execution on Reconfigurable Automation Carts (RACs). Use when the user wants to run protein expression and purification (cell-free, E. coli, or Pichia), HiBiT or A280 or LabChip q...",
+      "category": "skill"
+    },
+    {
+      "name": "glycoengineering",
+      "source": "./skills/glycoengineering",
+      "description": "Analyze and engineer protein glycosylation. Scan sequences for N-glycosylation sequons (N-X-S/T), predict O-glycosylation hotspots, and access curated glycoengineering tools (NetOGlyc, GlycoShield, GlycoWorkbench). For glycoprotein engineering, therapeutic antibody optimization, and vaccine design.",
+      "category": "skill"
+    },
+    {
+      "name": "gtars",
+      "source": "./skills/gtars",
+      "description": "Use Gtars for local genomic interval models and set algebra, overlaps and counts, consensus and coverage, tokenization, fragment processing, and refget/BEDbase planning across Python, Rust, and the CLI.",
+      "category": "skill"
+    },
+    {
+      "name": "histolab",
+      "source": "./skills/histolab",
+      "description": "Lightweight WSI tile extraction and preprocessing. Use for basic slide processing, tissue detection, tile extraction, and stain normalization for H&E images. Best for simple pipelines, dataset preparation, and quick tile-based analysis. For advanced spatial proteomics, multiplexed imaging, or dee...",
+      "category": "skill"
+    },
+    {
+      "name": "hugging-science",
+      "source": "./skills/hugging-science",
+      "description": "Use when the user is doing AI/ML work in a scientific domain such as biology, chemistry, physics, astronomy, climate, genomics, materials, medicine, ecology, energy, engineering, math, drug discovery, protein design, weather modeling, theorem proving, single-cell, or PDE solving. Hugging Science ...",
+      "category": "skill"
+    },
+    {
+      "name": "hypogenic",
+      "source": "./skills/hypogenic",
+      "description": "Plans and audits use of ChicagoHAI HypoGeniC/HypoRefine for LLM-assisted hypothesis generation from labeled text datasets. Use for the `hypogenic` package, its task configs, hypothesis banks, or HypoBench datasets—not for manual hypothesis formulation or scientific validation.",
+      "category": "skill"
+    },
+    {
+      "name": "hypothesis-generation",
+      "source": "./skills/hypothesis-generation",
+      "description": "Formulate evidence-bounded scientific questions, candidate hypotheses, rival explanations, causal or associational claims, discriminating predictions, measurements, and preregistration-ready analysis plans. Use when turning observations or preliminary findings into transparent, testable research ...",
+      "category": "skill"
+    },
+    {
+      "name": "imaging-data-commons",
+      "source": "./skills/imaging-data-commons",
+      "description": "Query and download public cancer imaging data from NCI Imaging Data Commons. Invoke for any question about IDC collections, cancer imaging datasets, DICOM data access, radiology (CT, MR, PET) or pathology AI training sets, metadata queries, visualization, or license checks — even when the user do...",
+      "category": "skill"
+    },
+    {
+      "name": "infographics",
+      "source": "./skills/infographics",
+      "description": "Create professional infographics using Nano Banana Pro AI with smart iterative refinement. Uses Gemini 3.6 Flash for quality review. Integrates research-lookup and web search for accurate data. Supports 10 infographic types, 8 industry styles, and colorblind-safe palettes.",
+      "category": "skill"
+    },
+    {
+      "name": "iso-standards-readiness",
+      "source": "./skills/iso-standards-readiness",
+      "description": "Prepares and structurally reviews readiness evidence for ISO management-system and laboratory-competence standards - ISO 13485 medical device QMS, ISO 14971 device risk management, ISO/IEC 17025 testing and calibration laboratories, and ISO 15189 medical laboratories. Use when organizing declared...",
+      "category": "skill"
+    },
+    {
+      "name": "lab-hardware-cad",
+      "source": "./skills/lab-hardware-cad",
+      "description": "Design custom laboratory hardware as parametric build123d models and export fabrication-ready STEP, STL, and DXF files - microfluidic chips and molds, optomechanical mounts and breadboard adapters, cuvette and microplate holders, tube racks, animal-behavior rigs, and 3D-printed instrument fixture...",
+      "category": "skill"
+    },
+    {
+      "name": "labarchive-integration",
+      "source": "./skills/labarchive-integration",
+      "description": "Securely integrate with the official LabArchives ELN REST-like API and Inventory API v1. Use for regional endpoint selection, signed-request construction, user authorization and UID flows, local LA container validation, and verified LabArchives integration workflows.",
+      "category": "skill"
+    },
+    {
+      "name": "lamindb",
+      "source": "./skills/lamindb",
+      "description": "Use when working with LaminDB, the open-source lineage-native lakehouse for biological datasets and models. Covers setup, artifact registration, query/search, lineage tracking, validation, ontology-backed annotation with Bionty, collections, branches, storage, and workflow integrations.",
+      "category": "skill"
+    },
+    {
+      "name": "latchbio-integration",
+      "source": "./skills/latchbio-integration",
+      "description": "Build, register, debug, and operate bioinformatics workflows on Latch using the Python SDK, CLI, Latch Data and Registry, Nextflow, Snakemake, programmatic execution, and Latch MCP. Use when authoring or deploying Latch workflows, configuring resources or interfaces, moving data, integrating Regi...",
+      "category": "skill"
+    },
+    {
+      "name": "latex-posters",
+      "source": "./skills/latex-posters",
+      "description": "Create professional research posters in LaTeX using beamerposter, tikzposter, or baposter. Support for conference presentations, academic posters, and scientific communication. Includes layout design, color schemes, multi-column formats, figure integration, and poster-specific best practices for ...",
+      "category": "skill"
+    },
+    {
+      "name": "liteparse",
+      "source": "./skills/liteparse",
+      "description": "Local document and PDF parsing that returns spatial text with bounding boxes. Use for extracting text from PDFs, DOCX, Office files, and images; running OCR on scans; producing layout-preserved JSON for RAG; batch-ingesting folders of papers; or rendering pages to PNG for multimodal agents. Disti...",
+      "category": "skill"
+    },
+    {
+      "name": "literature-review",
+      "source": "./skills/literature-review",
+      "description": "Conduct comprehensive, systematic literature reviews using multiple academic databases (PubMed, arXiv, bioRxiv, Semantic Scholar, etc.). This skill should be used when conducting systematic literature reviews, meta-analyses, research synthesis, or comprehensive literature searches across biomedic...",
+      "category": "skill"
+    },
+    {
+      "name": "markdown-mermaid-writing",
+      "source": "./skills/markdown-mermaid-writing",
+      "description": "Comprehensive markdown and Mermaid diagram writing skill. Use when creating any scientific document, report, analysis, or visualization. Establishes text-based diagrams as the default documentation standard with full style guides (markdown + mermaid), 24 diagram type references, and 9 document te...",
+      "category": "skill"
+    },
+    {
+      "name": "market-research-reports",
+      "source": "./skills/market-research-reports",
+      "description": "Build evidence-traceable market research reports and assumption-driven market sizing or forecast scenarios. Use for market definition, industry and customer evidence, competitive landscapes, TAM/SAM/SOM reconciliation, forecast sensitivity, and auditable report scaffolds.",
+      "category": "skill"
+    },
+    {
+      "name": "markitdown",
+      "source": "./skills/markitdown",
+      "description": "Convert heterogeneous documents and selected URIs to Markdown with Microsoft MarkItDown for text analysis, search, and LLM/RAG ingestion. Covers safe local conversion, streams, Office/PDF/data formats, batch workflows, plugins, vision OCR, Azure extraction, and the official MCP server.",
+      "category": "skill"
+    },
+    {
+      "name": "matchms",
+      "source": "./skills/matchms",
+      "description": "Process, clean, compare, and search tandem mass spectra with matchms. Use for MS/MS file I/O, metadata harmonization, peak filtering, spectral similarity, library matching, score matrices, and molecular-similarity networks. Use pyopenms instead for LC-MS feature detection or proteomics pipelines.",
+      "category": "skill"
+    },
+    {
+      "name": "matlab",
+      "source": "./skills/matlab",
+      "description": "Build, review, migrate, and safely plan MATLAB or GNU Octave numerical workflows, including arrays, tabular/time data, tests, projects, graphics, MAT files, and explicit Python interoperability.",
+      "category": "skill"
+    },
+    {
+      "name": "matplotlib",
+      "source": "./skills/matplotlib",
+      "description": "Low-level plotting library for full customization. Use when you need fine-grained control over every plot element, creating novel plot types, or integrating with specific scientific workflows. Export to PNG/PDF/SVG for publication. For quick statistical plots use seaborn; for interactive plots us...",
+      "category": "skill"
+    },
+    {
+      "name": "medchem",
+      "source": "./skills/medchem",
+      "description": "Medicinal chemistry filters for compound triage. Apply drug-likeness rules (Lipinski, Veber, CNS), structural alert catalogs (PAINS, NIBR, ChEMBL), complexity metrics, and the medchem query language for library filtering.",
+      "category": "skill"
+    },
+    {
+      "name": "modal",
+      "source": "./skills/modal",
+      "description": "Modal is a serverless cloud platform for running Python on demand, including on-demand GPUs. Use when deploying or serving AI/ML models, running GPU-accelerated workloads (training, fine-tuning, inference), serving web endpoints, scheduling batch jobs, or scaling Python code to cloud containers w...",
+      "category": "skill"
+    },
+    {
+      "name": "molecular-dynamics",
+      "source": "./skills/molecular-dynamics",
+      "description": "Run and analyze molecular dynamics simulations with OpenMM and MDAnalysis. Set up protein/small molecule systems, define force fields, run energy minimization and production MD, analyze trajectories (RMSD, RMSF, contact maps, free energy surfaces). For structural biology, drug binding, and biophy...",
+      "category": "skill"
+    },
+    {
+      "name": "molfeat",
+      "source": "./skills/molfeat",
+      "description": "Molecular featurization for ML (100+ featurizers). ECFP, MACCS, descriptors, pretrained models (ChemBERTa), convert SMILES to features, for QSAR and molecular ML.",
+      "category": "skill"
+    },
+    {
+      "name": "ncats-arax",
+      "source": "./skills/ncats-arax",
+      "description": "Queries the NCATS Translator ARAX production API for bounded, typed, provenance-rich one-hop and endpoint-pinned two-hop biomedical knowledge-graph relationships. Use for Biolink-constrained RTX-KG2 lookup, explicit selected-provider ARAX federation, separate entity normalization, qualifier-aware...",
+      "category": "skill"
+    },
+    {
+      "name": "networkx",
+      "source": "./skills/networkx",
+      "description": "Create, analyze, and visualize complex networks and graphs in Python with NetworkX. Use when working with network/graph data structures, computing graph algorithms (shortest paths, centrality, clustering), detecting communities, generating synthetic networks (random, scale-free, small-world), rea...",
+      "category": "skill"
+    },
+    {
+      "name": "neurokit2",
+      "source": "./skills/neurokit2",
+      "description": "Use NeuroKit2 to build or audit reproducible research workflows for physiological time-series preprocessing, event/interval analysis, multimodal alignment, variability, and complexity. Trigger when code imports neurokit2 or needs its current APIs, schemas, and method-aware validation—not for diag...",
+      "category": "skill"
+    },
+    {
+      "name": "neuropixels-analysis",
+      "source": "./skills/neuropixels-analysis",
+      "description": "Analyze Neuropixels extracellular recordings end-to-end with SpikeInterface. Covers loading SpikeGLX/Open Ephys/NWB data, preprocessing, drift/motion correction, Kilosort4 (and CPU) spike sorting, quality metrics, and unit curation (threshold-based, model-based UnitRefine, and AI-assisted visual ...",
+      "category": "skill"
+    },
+    {
+      "name": "nextflow",
+      "source": "./skills/nextflow",
+      "description": "Build, run, and debug Nextflow data pipelines and nf-core workflows end to end. Use whenever the user mentions Nextflow, nf-core, .nf files, nextflow.config, DSL2, processes/channels/operators, samplesheets, or wants to run a community pipeline (e.g. nf-core/rnaseq, nf-core/sarek), write or test ...",
+      "category": "skill"
+    },
+    {
+      "name": "omero-integration",
+      "source": "./skills/omero-integration",
+      "description": "Securely inspect and automate microscopy data workflows against OMERO.server with omero-py, BlitzGateway, OMERO CLI, tables, annotations, ROIs, rendering, and documented OMERO.web APIs. Use for scoped OMERO inventory, metadata export, import/export planning, or reviewed write workflows.",
+      "category": "skill"
+    },
+    {
+      "name": "onekgpd",
+      "source": "./skills/onekgpd",
+      "description": "Query the 1000 Genomes Project dataset (3,202 whole-genome-sequenced individuals, GRCh38) at the level of individual participants. Use when a question is about individuals or variants in the 1000 Genomes Project cohort: which individuals carry variants matching specific criteria in a gene or regi...",
+      "category": "skill"
+    },
+    {
+      "name": "ontology-term-resolution",
+      "source": "./skills/ontology-term-resolution",
+      "description": "Resolve free-text scientific labels to ontology term IDs and validate existing CURIEs against the EBI Ontology Lookup Service (OLS4). Also look up prefixes in Bioregistry, resolve compact identifiers via Identifiers.org, map lab shorthand with ZOOMA, and build Ontobee term pages. Use whenever an ...",
+      "category": "skill"
+    },
+    {
+      "name": "open-notebook",
+      "source": "./skills/open-notebook",
+      "description": "Self-hosted, open-source alternative to Google NotebookLM for AI-powered research and document analysis. Use when organizing research materials into notebooks, ingesting diverse content sources (PDFs, videos, audio, web pages, Office documents), generating AI-powered notes and summaries, creating...",
+      "category": "skill"
+    },
+    {
+      "name": "openpiv",
+      "source": "./skills/openpiv",
+      "description": "Particle Image Velocimetry (PIV) analysis with OpenPIV. Use when extracting velocity fields from PIV image pairs, analyzing fluid dynamics or flow visualization experiments, cross-correlating interrogation windows, validating and replacing spurious PIV vectors, or computing vorticity, strain rate...",
+      "category": "skill"
+    },
+    {
+      "name": "opentrons-integration",
+      "source": "./skills/opentrons-integration",
+      "description": "Author, review, migrate, simulate, and troubleshoot official Opentrons Python Protocol API v2 protocols for Flex and OT-2 robots. Use for robot-specific liquid handling, deck and labware setup, pipettes, modules, runtime parameters, liquid classes, and Opentrons App analysis. Use pylabrobot inste...",
+      "category": "skill"
+    },
+    {
+      "name": "optimize-for-gpu",
+      "source": "./skills/optimize-for-gpu",
+      "description": "GPU-accelerates scientific Python on NVIDIA hardware and verifies that the result is correct and faster. Use for CUDA/GPU optimization; CPU-bound NumPy, SciPy, pandas, scikit-learn, NetworkX, scikit-image, vector-search, image-processing, graph, simulation, or file-I/O workloads; CuPy, cuDF, cuML...",
+      "category": "skill"
+    },
+    {
+      "name": "pacsomatic",
+      "source": "./skills/pacsomatic",
+      "description": "Operator toolkit for nf-core/pacsomatic matched tumor-normal workflows from BAM inputs. Use this skill when the user needs to validate run inputs, generate pacsomatic-compliant samplesheets, prepare reproducible Nextflow launch artifacts, run locally or submit to schedulers (LSF/Slurm/PBS/SGE), a...",
+      "category": "skill"
+    },
+    {
+      "name": "paper-lookup",
+      "source": "./skills/paper-lookup",
+      "description": "Search 18 scholarly APIs for papers, preprints, citations, open-access full text, repository records, and journal OA status, and return results with reproducible provenance. Covers PubMed, PMC, Europe PMC, bioRxiv, medRxiv, arXiv, OpenAlex, Crossref, Semantic Scholar, CORE, Unpaywall, OpenCitatio...",
+      "category": "skill"
+    },
+    {
+      "name": "paperclip",
+      "source": "./skills/paperclip",
+      "description": "Search and read full-text biomedical papers, FDA/PMDA/EMA regulatory documents, clinical trial registries, and UniProt/PDB/ChEMBL entries with the Paperclip CLI from GXL. Covers installing and authenticating the `paperclip` binary with a PAPERCLIP_API_KEY, the read-only virtual filesystem under /...",
+      "category": "skill"
+    },
+    {
+      "name": "paperzilla",
+      "source": "./skills/paperzilla",
+      "description": "Chat with your agent about projects, recommendations, and canonical papers in Paperzilla. Use when users ask for recent project recommendations, canonical paper details, markdown-based summaries, recommendation feedback, feed export, or Atom feed URLs.",
+      "category": "skill"
+    },
+    {
+      "name": "parallel-web",
+      "source": "./skills/parallel-web",
+      "description": "Use Parallel CLI for web search, URL extraction, deep research, structured data enrichment, entity discovery, and recurring web monitoring. Best for requests that explicitly need current web evidence, academic-source discovery, repeated entity lookups, exhaustive reports, or ongoing change tracking.",
+      "category": "skill"
+    },
+    {
+      "name": "pathml",
+      "source": "./skills/pathml",
+      "description": "Use PathML for local, research-only computational pathology workflows: load and tile slides, build preprocessing and QC pipelines, manage h5path data, quantify multiplex images, construct spatial graphs, and plan bounded model inference.",
+      "category": "skill"
+    },
+    {
+      "name": "pathogen-variant-surveillance",
+      "source": "./skills/pathogen-variant-surveillance",
+      "description": "Query live pathogen genomic surveillance data through the GenSpectrum LAPIS API to find which viral lineages are circulating now, how fast they are growing, and what mutations they carry. Use whenever a question depends on the current state of a pathogen population rather than on remembered facts...",
+      "category": "skill"
+    },
+    {
+      "name": "pathway-enrichment",
+      "source": "./skills/pathway-enrichment",
+      "description": "Run pathway and gene-set enrichment analysis on gene lists or ranked gene data, then interpret the results. Use whenever the user has a set of genes (differentially expressed genes from PyDESeq2/Scanpy, CRISPR-screen hits, cluster marker genes, proteomics hits) and wants to know which biological ...",
+      "category": "skill"
+    },
+    {
+      "name": "pdf",
+      "source": "./skills/pdf",
+      "description": "Use this skill whenever the user wants to do anything with PDF files. This includes reading or extracting text/tables from PDFs, combining or merging multiple PDFs into one, splitting PDFs apart, rotating pages, adding watermarks, creating new PDFs, filling PDF forms, encrypting/decrypting PDFs, ...",
+      "category": "skill"
+    },
+    {
+      "name": "peer-review",
+      "source": "./skills/peer-review",
+      "description": "Prepare evidence-bounded, constructive peer-review drafts and structured manuscript assessments. Use for authorized review of scientific manuscripts, protocols, preprints, or research proposals; reporting-guideline selection; claim–evidence checks; methods, statistics, reproducibility, ethics, fi...",
+      "category": "skill"
+    },
+    {
+      "name": "pennylane",
+      "source": "./skills/pennylane",
+      "description": "Hardware-agnostic quantum ML framework with automatic differentiation. Use when training quantum circuits via gradients, building hybrid quantum-classical models, or needing device portability across IBM/Google/Rigetti/IonQ. Best for variational algorithms (VQE, QAOA), quantum neural networks, an...",
+      "category": "skill"
+    },
+    {
+      "name": "phylogenetics",
+      "source": "./skills/phylogenetics",
+      "description": "Build and analyze phylogenetic trees using MAFFT (multiple alignment), IQ-TREE 2 (maximum likelihood), and FastTree (fast NJ/ML). Visualize with ETE3 or FigTree. For evolutionary analysis, microbial genomics, viral phylodynamics, protein family analysis, and molecular clock studies.",
+      "category": "skill"
+    },
+    {
+      "name": "pi-agent",
+      "source": "./skills/pi-agent",
+      "description": "Build with and use Pi, the minimal terminal coding harness. Use for installing Pi, configuring providers/models/settings/environment variables, creating Pi skills/extensions/packages/themes/prompt templates, embedding Pi through the SDK, integrating over RPC or JSON event streams, parsing session...",
+      "category": "skill"
+    },
+    {
+      "name": "pkpd-modeling",
+      "source": "./skills/pkpd-modeling",
+      "description": "Pharmacokinetic and pharmacodynamic modelling and simulation - non-compartmental analysis, compartmental and population PK, PK/PD and exposure-response, TMDD, PBPK orientation, bioequivalence, allometric scaling and first-in-human dose, drug interaction prediction, and Bayesian therapeutic drug m...",
+      "category": "skill"
+    },
+    {
+      "name": "polars",
+      "source": "./skills/polars",
+      "description": "High-performance DataFrame library for Python ETL, analytics, and pandas migration. Use for expression-based data manipulation with lazy query optimization, parallel execution, streaming out-of-core processing, Arrow interoperability, and optional GPU execution.",
+      "category": "skill"
+    },
+    {
+      "name": "polars-bio",
+      "source": "./skills/polars-bio",
+      "description": "High-performance genomic interval operations and bioinformatics file I/O on Polars DataFrames. Overlap, nearest, merge, coverage, complement, subtract for BED/VCF/BAM/GFF intervals. Streaming, cloud-native, faster bioframe alternative.",
+      "category": "skill"
+    },
+    {
+      "name": "pptx",
+      "source": "./skills/pptx",
+      "description": "Use this skill any time a .pptx or .potx file is involved in any way — as input, output, or both. This includes: creating slide decks, pitch decks, or presentations; reading, parsing, or extracting text from any .pptx or .potx file (even if the extracted content will be used elsewhere, like in an...",
+      "category": "skill"
+    },
+    {
+      "name": "pptx-posters",
+      "source": "./skills/pptx-posters",
+      "description": "Create and audit editable scientific posters in macro-free PowerPoint (.pptx) from author-approved local content and assets. Use when the requested deliverable is a PowerPoint research/conference poster and exact physical, printer, accessibility, provenance, and package-security checks are required.",
+      "category": "skill"
+    },
+    {
+      "name": "primekg",
+      "source": "./skills/primekg",
+      "description": "Query the Precision Medicine Knowledge Graph (PrimeKG) for multiscale biological data including genes, drugs, diseases, phenotypes, and more.",
+      "category": "skill"
+    },
+    {
+      "name": "protocolsio-integration",
+      "source": "./skills/protocolsio-integration",
+      "description": "Read, validate, and safely export protocols.io data with current official REST/MCP contracts, or create non-executing mutation plans. The bundled client makes bounded official-host GET requests only with explicit --execute. Use only for tasks explicitly targeting protocols.io or an exact protocol...",
+      "category": "skill"
+    },
+    {
+      "name": "pufferlib",
+      "source": "./skills/pufferlib",
+      "description": "Version-aware guidance for PufferLib reinforcement-learning environments, vectorization, policies, PuffeRL training, evaluation, and safe checkpoint review. Use when adapting Gymnasium/PettingZoo environments to published PufferLib 3.0.0 or working with the redesigned native 4.0 source line.",
+      "category": "skill"
+    },
+    {
+      "name": "pydeseq2",
+      "source": "./skills/pydeseq2",
+      "description": "Differential gene expression analysis for bulk RNA-seq with PyDESeq2, including formulaic designs, Wald tests, FDR correction, LFC shrinkage, and result visualization.",
+      "category": "skill"
+    },
+    {
+      "name": "pydicom",
+      "source": "./skills/pydicom",
+      "description": "Use pydicom to read, inspect, write, transform, and safely preflight local DICOM datasets and pixel data. Applies to DICOM metadata, transfer syntaxes, compression plugins, frames, private elements, JSON, and bounded de-identification review.",
+      "category": "skill"
+    },
+    {
+      "name": "pyhealth",
+      "source": "./skills/pyhealth",
+      "description": "Build clinical/healthcare deep-learning pipelines with PyHealth — loading EHR/signal/imaging datasets (MIMIC-III/IV, eICU, OMOP, SleepEDF, ChestXray14, EHRShot), defining tasks (mortality, readmission, length-of-stay, drug recommendation, sleep staging, ICD coding, EEG events), instantiating mode...",
+      "category": "skill"
+    },
+    {
+      "name": "pylabrobot",
+      "source": "./skills/pylabrobot",
+      "description": "Develop and review PyLabRobot lab-automation resources, liquid-handling plans, offline simulations, and supported-device integrations. Use for PyLabRobot protocols or API questions; keep physical execution behind an explicit operator safety gate.",
+      "category": "skill"
+    },
+    {
+      "name": "pymatgen",
+      "source": "./skills/pymatgen",
+      "description": "Analyze, validate, convert, and transform materials structures and computed materials data with current pymatgen APIs, including local phase diagrams, symmetry sensitivity, electronic-structure I/O, and explicitly bounded Materials Project queries.",
+      "category": "skill"
+    },
+    {
+      "name": "pymc",
+      "source": "./skills/pymc",
+      "description": "Bayesian modeling with PyMC. Build hierarchical models, MCMC (NUTS), variational inference, LOO/WAIC comparison, posterior checks, for probabilistic programming and inference.",
+      "category": "skill"
+    },
+    {
+      "name": "pymoo",
+      "source": "./skills/pymoo",
+      "description": "Multi-objective optimization framework. NSGA-II, NSGA-III, MOEA/D, Pareto fronts, constraint handling, benchmarks (ZDT, DTLZ), for engineering design and optimization problems.",
+      "category": "skill"
+    },
+    {
+      "name": "pyopenms",
+      "source": "./skills/pyopenms",
+      "description": "Complete mass spectrometry analysis platform. Use for proteomics and metabolomics workflows—feature detection, peptide/protein identification, label-free and isobaric quantification, adduct/accurate-mass annotation, and complex LC-MS/MS pipelines. Supports extensive file formats and algorithms. F...",
+      "category": "skill"
+    },
+    {
+      "name": "pysam",
+      "source": "./skills/pysam",
+      "description": "Python/HTSlib workflows for genomic files. Use when reading, querying, filtering, or writing SAM/BAM/CRAM, VCF/BCF, FASTA/FASTQ, or tabix data with pysam, including pileup, coverage, indexing, and CRAM references.",
+      "category": "skill"
+    },
+    {
+      "name": "pytdc",
+      "source": "./skills/pytdc",
+      "description": "Use Therapeutics Data Commons through the PyTDC Python package for registry discovery, approved dataset access, task-aware splits, evaluator metrics, benchmark groups, and bounded molecular-oracle workflows.",
+      "category": "skill"
+    },
+    {
+      "name": "pytorch-lightning",
+      "source": "./skills/pytorch-lightning",
+      "description": "Deep learning framework (PyTorch Lightning / lightning package). Organize PyTorch code into LightningModules, configure Trainers for multi-GPU/TPU, implement data pipelines, callbacks, logging (W&B, TensorBoard, MLflow), distributed training (DDP, FSDP, DeepSpeed), for scalable neural network tra...",
+      "category": "skill"
+    },
+    {
+      "name": "pyzotero",
+      "source": "./skills/pyzotero",
+      "description": "Interact with Zotero reference management libraries using the pyzotero Python client. Retrieve, create, update, and delete items, collections, tags, and attachments via the Zotero Web API v3. Use this skill when working with Zotero libraries programmatically, managing bibliographic references, ex...",
+      "category": "skill"
+    },
+    {
+      "name": "qiskit",
+      "source": "./skills/qiskit",
+      "description": "Build, simulate, transpile, and execute quantum circuits with Qiskit and IBM Quantum Runtime. Use for Qiskit 2.x circuits and operators, V2 Sampler or Estimator primitives, target-aware transpilation, local or noisy simulation, IBM QPU execution, Runtime sessions or batches, error mitigation, and...",
+      "category": "skill"
+    },
+    {
+      "name": "qutip",
+      "source": "./skills/qutip",
+      "description": "Simulate and audit closed and open quantum-system models with QuTiP 5, including deterministic, trajectory, steady-state, spectral, and phase-space workflows. Use for local quantum-dynamics work where physical assumptions, dimensions, and numerical convergence must be explicit.",
+      "category": "skill"
+    },
+    {
+      "name": "rdkit",
+      "source": "./skills/rdkit",
+      "description": "Cheminformatics toolkit for fine-grained molecular control. SMILES/SDF parsing, descriptors (MW, LogP, TPSA), fingerprints, substructure search, 2D/3D generation, similarity, reactions. For standard workflows with simpler interface, use datamol (wrapper around RDKit). Use rdkit for advanced contr...",
+      "category": "skill"
+    },
+    {
+      "name": "relsa-severity-assessment",
+      "source": "./skills/relsa-severity-assessment",
+      "description": "Multivariate severity assessment and humane endpoint prediction for laboratory animal studies using the RELSA (RELative Severity Assessment) score and ARIMA-based foRcast forecasting. Use when combining welfare readouts — body weight or weight loss, body temperature, clinical or nesting scores, b...",
+      "category": "skill"
+    },
+    {
+      "name": "research-grants",
+      "source": "./skills/research-grants",
+      "description": "Write competitive research proposals for NSF, NIH, DOE, DARPA, and Taiwan NSTC. Agency-specific formatting, review criteria, budget preparation, broader impacts, significance statements, innovation narratives, and compliance with submission requirements.",
+      "category": "skill"
+    },
+    {
+      "name": "research-lookup",
+      "source": "./skills/research-lookup",
+      "description": "Compile current scholarly evidence for a scientific manuscript or research brief. Use when the user explicitly asks to gather literature, references, background evidence, competing findings, or a manuscript research packet. Uses Parallel Search by default, Parallel Extract for source verification...",
+      "category": "skill"
+    },
+    {
+      "name": "rowan",
+      "source": "./skills/rowan",
+      "description": "Rowan is a cloud-native molecular modeling and medicinal-chemistry workflow platform with a Python API. Use for pKa and macropKa prediction, conformer and tautomer ensembles, docking and analogue docking, protein-ligand cofolding, MSA generation, molecular dynamics, permeability, descriptor workf...",
+      "category": "skill"
+    },
+    {
+      "name": "scanpy",
+      "source": "./skills/scanpy",
+      "description": "Standard single-cell RNA-seq analysis pipeline. Use for QC, normalization, dimensionality reduction (PCA/UMAP/t-SNE), clustering, differential expression, visualization, and converting R-friendly single-cell formats such as Seurat or SingleCellExperiment RDS files into h5ad for Scanpy. Best for e...",
+      "category": "skill"
+    },
+    {
+      "name": "scholar-evaluation",
+      "source": "./skills/scholar-evaluation",
+      "description": "Provide qualitative-first, evidence-traceable developmental review of scholarly works and audit low-stakes research-assessment rubrics with optional local quality controls. Never use for ranking people or consequential decisions.",
+      "category": "skill"
+    },
+    {
+      "name": "scientific-brainstorming",
+      "source": "./skills/scientific-brainstorming",
+      "description": "Facilitates evidence-aware scientific ideation with independent generation, structured discussion, explicit assumptions, transparent evaluation, adversarial review, and decision logs. Use for early-stage research brainstorming or prioritizing candidate directions; hand off empirical validation, s...",
+      "category": "skill"
+    },
+    {
+      "name": "scientific-critical-thinking",
+      "source": "./skills/scientific-critical-thinking",
+      "description": "Evaluate scientific claims and evidence quality. Use for assessing experimental design validity, identifying biases and confounders, applying evidence grading frameworks (GRADE, Cochrane Risk of Bias), or teaching critical analysis. Best for understanding evidence quality, identifying flaws. For ...",
+      "category": "skill"
+    },
+    {
+      "name": "scientific-schematics",
+      "source": "./skills/scientific-schematics",
+      "description": "Create publication-quality scientific diagrams using Nano Banana 2 AI with smart iterative refinement. Uses Gemini 3.6 Flash for quality review. Only regenerates if quality is below threshold for your document type. Specialized in neural network architectures, system diagrams, flowcharts, biologi...",
+      "category": "skill"
+    },
+    {
+      "name": "scientific-slides",
+      "source": "./skills/scientific-slides",
+      "description": "Build slide decks and presentations for research talks. Use this for making PowerPoint slides, conference presentations, seminar talks, research presentations, thesis defense slides, or any scientific talk. Provides slide structure, design templates, timing guidance, and visual validation. Works ...",
+      "category": "skill"
+    },
+    {
+      "name": "scientific-visualization",
+      "source": "./skills/scientific-visualization",
+      "description": "Create and audit truthful, accessible, publication-ready scientific figures with Matplotlib, Seaborn, or Plotly. Use for figure design, multi-panel layouts, uncertainty and missing-data displays, color/contrast review, image metadata validation, and journal export planning.",
+      "category": "skill"
+    },
+    {
+      "name": "scientific-writing",
+      "source": "./skills/scientific-writing",
+      "description": "Draft, revise, and audit scientific manuscripts or reports with explicit evidence provenance, reporting-guideline coverage, authorship accountability, confidentiality controls, and local consistency checks. Use for manuscript sections, references, declarations, tables, figures, or submission prep...",
+      "category": "skill"
+    },
+    {
+      "name": "scikit-bio",
+      "source": "./skills/scikit-bio",
+      "description": "Biological data toolkit. Sequence analysis, alignments, phylogenetic trees, diversity metrics (alpha/beta, UniFrac), ordination (PCoA), PERMANOVA, FASTA/Newick I/O, for microbiome analysis.",
+      "category": "skill"
+    },
+    {
+      "name": "scikit-learn",
+      "source": "./skills/scikit-learn",
+      "description": "Machine learning in Python with scikit-learn. Use when working with supervised learning (classification, regression), unsupervised learning (clustering, dimensionality reduction), model evaluation, hyperparameter tuning, preprocessing, or building ML pipelines. Provides comprehensive reference do...",
+      "category": "skill"
+    },
+    {
+      "name": "scikit-survival",
+      "source": "./skills/scikit-survival",
+      "description": "Build, evaluate, and audit right-censored or competing-risk survival workflows with scikit-survival, including leakage-safe preprocessing, model selection, probability prediction, and censoring-aware metrics.",
+      "category": "skill"
+    },
+    {
+      "name": "scvelo",
+      "source": "./skills/scvelo",
+      "description": "RNA velocity analysis with scVelo. Estimate cell state transitions from unspliced/spliced mRNA dynamics, infer trajectory directions, compute latent time, and identify driver genes in single-cell RNA-seq data. Complements Scanpy/scVI-tools for trajectory inference.",
+      "category": "skill"
+    },
+    {
+      "name": "scvi-tools",
+      "source": "./skills/scvi-tools",
+      "description": "Deep generative models for single-cell omics. Use when you need probabilistic batch correction (scVI), transfer learning, differential expression with uncertainty, or multi-modal integration (TOTALVI, MultiVI). Best for advanced modeling, batch effects, multimodal data. For standard analysis pipe...",
+      "category": "skill"
+    },
+    {
+      "name": "seaborn",
+      "source": "./skills/seaborn",
+      "description": "Statistical visualization with pandas integration. Use for quick exploration of distributions, relationships, and categorical comparisons with attractive defaults. Best for box plots, violin plots, pair plots, heatmaps. Built on matplotlib. For interactive plots use plotly; for publication stylin...",
+      "category": "skill"
+    },
+    {
+      "name": "shap",
+      "source": "./skills/shap",
+      "description": "Explain and audit machine-learning predictions with SHAP. Use for selecting SHAP explainers and maskers, computing and validating feature attributions, handling multi-output explanations, and producing local or global SHAP visualizations.",
+      "category": "skill"
+    },
+    {
+      "name": "simpy",
+      "source": "./skills/simpy",
+      "description": "Build, inspect, test, and analyze bounded process-based discrete-event simulations with SimPy, including events, resources, interrupts, monitoring, replications, warm-up, and reproducible output analysis.",
+      "category": "skill"
+    },
+    {
+      "name": "stable-baselines3",
+      "source": "./skills/stable-baselines3",
+      "description": "Production-ready reinforcement learning algorithms (PPO, SAC, DQN, TD3, DDPG, A2C) with scikit-learn-like API. Use for standard RL experiments, quick prototyping, and well-documented algorithm implementations. Best for single-agent RL with Gymnasium environments. For high-performance parallel tra...",
+      "category": "skill"
+    },
+    {
+      "name": "statistical-analysis",
+      "source": "./skills/statistical-analysis",
+      "description": "Guided statistical analysis for research data - test selection, assumption checking, effect sizes, power analysis, Bayesian alternatives, and APA-formatted reporting. Use whenever a user wants to compare groups, test a hypothesis, analyze experimental or survey data, check statistical assumptions...",
+      "category": "skill"
+    },
+    {
+      "name": "statistical-power",
+      "source": "./skills/statistical-power",
+      "description": "Sample-size and statistical power calculations for planning studies. Use whenever someone asks \"how many subjects/samples/replicates do I need\", wants an a priori power analysis, a minimum detectable effect (MDE), a power curve, or needs to justify a sample size for a grant, IRB protocol, or pre-...",
+      "category": "skill"
+    },
+    {
+      "name": "statsmodels",
+      "source": "./skills/statsmodels",
+      "description": "Statistical models library for Python. Use when you need specific model classes (OLS, GLM, mixed models, ARIMA) with detailed diagnostics, residuals, and inference. Best for econometrics, time series, rigorous inference with coefficient tables. For guided statistical test selection with APA repor...",
+      "category": "skill"
+    },
+    {
+      "name": "sympy",
+      "source": "./skills/sympy",
+      "description": "Use when you need exact symbolic math in Python — algebra, calculus, equation solving, symbolic linear algebra, or code generation via lambdify/LaTeX. Prefer NumPy or SciPy when floating-point approximations are sufficient.",
+      "category": "skill"
+    },
+    {
+      "name": "tamarind",
+      "source": "./skills/tamarind",
+      "description": "Access a collection of open-source molecular design and structural biology tools on the Tamarind Bio platform, via its REST API or MCP server — no local GPUs required. Tamarind bundles popular open-source models for structure prediction (AlphaFold, Boltz, Chai, ESMFold), protein, binder, and de n...",
+      "category": "skill"
+    },
+    {
+      "name": "tiledbvcf",
+      "source": "./skills/tiledbvcf",
+      "description": "Efficient storage and retrieval of genomic variant data using TileDB. Scalable VCF/BCF ingestion, incremental sample addition, compressed storage, parallel queries, and export capabilities for population genomics.",
+      "category": "skill"
+    },
+    {
+      "name": "timesfm-forecasting",
+      "source": "./skills/timesfm-forecasting",
+      "description": "Zero-shot time series forecasting with Google's TimesFM foundation model. Use for any univariate time series (sales, sensors, energy, vitals, weather) without training a custom model. Supports CSV/DataFrame/array inputs with point forecasts and prediction intervals. Includes a preflight system ch...",
+      "category": "skill"
+    },
+    {
+      "name": "torch-geometric",
+      "source": "./skills/torch-geometric",
+      "description": "PyTorch Geometric (PyG) for graph neural networks — node/link/graph classification, message passing (GCN, GAT, GraphSAGE, GIN), heterogeneous graphs, neighbor sampling, and custom datasets. Use when working with torch_geometric, not for general NetworkX analytics or non-graph PyTorch models.",
+      "category": "skill"
+    },
+    {
+      "name": "torchdrug",
+      "source": "./skills/torchdrug",
+      "description": "Build and troubleshoot TorchDrug 0.2.1 workflows for molecular graphs, property prediction, self-supervised pretraining, molecule generation, retrosynthesis, protein representation learning, and knowledge graph reasoning. Use when code imports torchdrug or needs its datasets, models, tasks, or En...",
+      "category": "skill"
+    },
+    {
+      "name": "transformers",
+      "source": "./skills/transformers",
+      "description": "Hugging Face Transformers for loading Hub models, running pipeline inference, text generation, and Trainer fine-tuning on NLP, vision, audio, and multimodal tasks. Use when working with AutoModel, pipelines, tokenizers, or TrainingArguments—not for general ML outside the Transformers library.",
+      "category": "skill"
+    },
+    {
+      "name": "treatment-plans",
+      "source": "./skills/treatment-plans",
+      "description": "Format and structurally validate local treatment-plan documentation after clinical decisions have already been supplied and verified by authorized licensed professionals. Use for source traceability, clinician-authored intervention records, goals and checkpoints, shared-decision records, reconcil...",
+      "category": "skill"
+    },
+    {
+      "name": "umap-learn",
+      "source": "./skills/umap-learn",
+      "description": "Use UMAP-learn for nonlinear dimensionality reduction, 2D/3D embeddings, clustering preprocessing, supervised or semi-supervised UMAP, DensMAP, AlignedUMAP, and Parametric UMAP workflows.",
+      "category": "skill"
+    },
+    {
+      "name": "uncertainty-and-units",
+      "source": "./skills/uncertainty-and-units",
+      "description": "Track physical units and propagate measurement uncertainty in scientific calculations using pint and uncertainties. Use for unit conversion and dimensional checking, GUM uncertainty budgets, Type A and Type B evaluation, coverage factors and expanded uncertainty, Monte Carlo propagation, signific...",
+      "category": "skill"
+    },
+    {
+      "name": "usfiscaldata",
+      "source": "./skills/usfiscaldata",
+      "description": "Query the U.S. Treasury Fiscal Data REST API for federal financial data. No API key required. Use for national debt (Debt to the Penny), Daily Treasury Statements, Monthly Treasury Statements, Treasury securities auctions, interest rates, foreign exchange rates, savings bonds, or U.S. government ...",
+      "category": "skill"
+    },
+    {
+      "name": "vaex",
+      "source": "./skills/vaex",
+      "description": "Use this skill for processing and analyzing large tabular datasets (billions of rows) that exceed available RAM. Vaex excels at out-of-core DataFrame operations, lazy evaluation, fast aggregations, efficient visualization of big data, and machine learning on large datasets. Apply when users need ...",
+      "category": "skill"
+    },
+    {
+      "name": "venue-templates",
+      "source": "./skills/venue-templates",
+      "description": "Prepare journal manuscripts, conference papers, research posters, and grant documents using venue-specific formatting guidance and bundled LaTeX scaffolds. Use when selecting an official template, checking current page or anonymity rules, adapting academic writing to a venue, or inspecting a subm...",
+      "category": "skill"
+    },
+    {
+      "name": "waypoint-bio",
+      "source": "./skills/waypoint-bio",
+      "description": "Use when working with Outpost Bio's open microbiome foundation models - the Waypoint checkpoints (Waypoint-6m, Waypoint-45m, Waypoint-170m), the Atlas pretraining corpus, the Compass eight-task benchmark, or the `waypoint` CLI from the `waypoint-bio` package. Covers embedding microbiome samples, ...",
+      "category": "skill"
+    },
+    {
+      "name": "what-if-oracle",
+      "source": "./skills/what-if-oracle",
+      "description": "Run structured What-If scenario analysis with 4–6 branch possibility exploration (best, likely, worst, wild card, contrarian, second-order). Use when the user asks speculative what-if questions about uncertain futures, strategic forks, contingency planning, or stress-testing a decision before com...",
+      "category": "skill"
+    },
+    {
+      "name": "xlsx",
+      "source": "./skills/xlsx",
+      "description": "Create, edit, analyze, or convert Excel spreadsheets (.xlsx, .xlsm, .xltx) where the workbook file is the primary deliverable. Use for formulas, formatting, financial models, multi-sheet workbooks, and tabular cleanup exported to Excel. Also applies to .csv/.tsv when the user wants spreadsheet ou...",
+      "category": "skill"
+    },
+    {
+      "name": "zarr-python",
+      "source": "./skills/zarr-python",
+      "description": "Chunked N-D arrays for cloud storage (Zarr-Python 3). Compressed arrays, parallel I/O, S3/GCS via fsspec, NumPy/Dask/Xarray compatible, for large-scale scientific computing pipelines.",
+      "category": "skill"
+    }
+  ]
+}

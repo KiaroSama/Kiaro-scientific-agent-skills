@@ -1,0 +1,17 @@
+{
+  "name": "what-if-oracle",
+  "description": "Run structured What-If scenario analysis with 4–6 branch possibility exploration (best, likely, worst, wild card, contrarian, second-order). Use when the user asks speculative what-if questions about uncertain futures, strategic forks, contingency planning, or stress-testing a decision before com...",
+  "author": {
+    "name": "KiaroSama"
+  },
+  "homepage": "https://github.com/KiaroSama/Kiaro-scientific-agent-skills",
+  "repository": "https://github.com/KiaroSama/Kiaro-scientific-agent-skills",
+  "skills": "./",
+  "interface": {
+    "displayName": "what-if-oracle",
+    "shortDescription": "Run structured What-If scenario analysis with 4–6 branch possibility exploration (best, likely, worst, wild card, contra",
+    "developerName": "KiaroSama",
+    "category": "Education & Research",
+    "websiteURL": "https://github.com/KiaroSama/Kiaro-scientific-agent-skills"
+  }
+}
